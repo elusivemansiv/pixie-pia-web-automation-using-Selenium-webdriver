@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-08T13:33:47Z" name="Default suite" finished-at="2024-05-08T13:34:04Z" duration-ms="16119">
+  <suite started-at="2024-05-09T13:08:27Z" name="Default suite" finished-at="2024-05-09T13:08:40Z" duration-ms="12658">
     <groups>
     </groups>
-    <test started-at="2024-05-08T13:33:47Z" name="Default test" finished-at="2024-05-08T13:34:04Z" duration-ms="16119">
-      <class name="go.games.selenium.test.TestScript">
-        <test-method signature="testAddingToy()[pri:0, instance:go.games.selenium.test.TestScript@1efe439d]" started-at="2024-05-08T19:33:47Z" name="testAddingToy" finished-at="2024-05-08T19:34:04Z" duration-ms="16100" status="PASS">
+    <test started-at="2024-05-09T13:08:27Z" name="Default test" finished-at="2024-05-09T13:08:40Z" duration-ms="12658">
+      <class name="crms.selenium.test.crmstestscript">
+        <test-method signature="t_01_validate_login_crms_app()[pri:0, instance:crms.selenium.test.crmstestscript@1efe439d]" started-at="2024-05-09T19:08:27Z" name="t_01_validate_login_crms_app" finished-at="2024-05-09T19:08:40Z" duration-ms="12642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddingToy -->
-      </class> <!-- go.games.selenium.test.TestScript -->
+        </test-method> <!-- t_01_validate_login_crms_app -->
+      </class> <!-- crms.selenium.test.crmstestscript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

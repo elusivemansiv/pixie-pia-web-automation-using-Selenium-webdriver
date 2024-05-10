@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="go.games.selenium.test.TestScript">
+      <class name="crms.selenium.test.crmstestscript">
         <methods>
-          <include name="testAddingToys"/>
+          <include name="t_01_validate_login_crms_app"/>
         </methods>
-      </class> <!-- go.games.selenium.test.TestScript -->
+      </class> <!-- crms.selenium.test.crmstestscript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
