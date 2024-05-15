@@ -1,4 +1,3 @@
-package go.games.selenium.test;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -110,31 +109,31 @@ public class TestScript {
         }
         
       //Update mytoy details
-        WebElement editToyButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/main/div/div/table/tbody/tr[1]/td[7]/div[2]/a/button")));
-        editToyButton.click();
-        
-        
-        try {
-            Thread.sleep(5000); // Sleep for 5 seconds
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        
-        driver.findElement(By.name("toyName")).sendKeys("Barbie");
-        driver.findElement(By.name("price")).sendKeys("2");
-        Select select2 = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[1]/div[3]/select"))));
-        select.selectByVisibleText("Dolls");
-        
-        Select select3 = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[1]/div[4]/select"))));
-        select1.selectByVisibleText("Princess Dolls");
-        
-        WebElement updateToyButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[2]/button")));
-        updateToyButton.click();
+//        WebElement editToyButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/main/div/div/table/tbody/tr[1]/td[7]/div[2]/a/button")));
+//        editToyButton.click();
+//        
+//        
+//        try {
+//            Thread.sleep(5000); // Sleep for 5 seconds
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        
+//        driver.findElement(By.name("toyName")).sendKeys("Barbie");
+//        driver.findElement(By.name("price")).sendKeys("2");
+//        Select select2 = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[1]/div[3]/select"))));
+//        select.selectByVisibleText("Dolls");
+//        
+//        Select select3 = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[1]/div[4]/select"))));
+//        select1.selectByVisibleText("Princess Dolls");
+//        
+//        WebElement updateToyButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/main/div/div/form/div[2]/button")));
+//        updateToyButton.click();
       
       
         
        
-//        driver.quit();
+        driver.quit();
         
     }
 }
